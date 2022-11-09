@@ -6,6 +6,7 @@ desconto = total*(0.9-(compra*0.01))
 print(f'{total:.2f}')
 print(f'{desconto:.2f}')'''
 
+
 #2
 '''emprego1 = float(input())
 emprego2 = float(input())
@@ -13,10 +14,12 @@ casa = float(input())
 total = emprego1 + emprego2 + casa
 print(f'{total:.0f} minutos')'''
 
+
 #3
 '''polegadas = float(input())
 centimetros = polegadas * 2.54
 print(f'{centimetros:.3f}')'''
+
 #4
 '''natural = int(input())
 if (natural%2)== 0: 
@@ -27,6 +30,8 @@ else:
    impar = natural-2
    par = natural+1
    print(f'{impar:.0f} {par:.0f}')'''
+   
+   
 #5
 '''nota1 = float(input())
 nota2 = float(input())
@@ -36,6 +41,8 @@ elif (nota1>=2) and (nota1+nota2)>=2:
         print('talvez com a sub')
 else:
  print('reprovado')'''
+ 
+ 
 #6
 '''dia_da_semana = str(input())
 prazo_de_entrega = int(input())
