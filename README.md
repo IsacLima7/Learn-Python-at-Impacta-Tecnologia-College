@@ -1,7 +1,7 @@
-In this repository I will put everything I learn in college
+"In this repository I will put everything I learn in college"
 
 
-Separei em tres pastas:
+I separated it into three folders:
 
 - daily activities
 (o que eu aprendendo em cada aula)
