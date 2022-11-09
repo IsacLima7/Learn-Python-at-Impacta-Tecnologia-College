@@ -4,10 +4,10 @@
    I separated it into three folders:
 
 - daily activities
-(o que eu aprendendo em cada aula)
+(what I learn in each class)
 
-- Atividades de Notas:
-(principais atividades que me avaliam)
+- Notes Activities:
+(top activities that rate me)
 
-- Prova ou Project Final
-(Colocarei o codigo de avalicação final)
+- Final exam or Project
+(I will put the final evaluation code)
