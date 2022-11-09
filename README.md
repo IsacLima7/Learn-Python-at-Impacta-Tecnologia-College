@@ -1,4 +1,4 @@
-<h1 align="center">In this repository I will put everything I learn in college</h1>
+<h1 align="center">In this repository I Will Put Everything I Learn in College</h1>
 
 
    I separated it into three folders:
