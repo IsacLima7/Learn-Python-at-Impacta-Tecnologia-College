@@ -3,7 +3,7 @@
 
    I separated it into three folders:
 
-- daily activities
+- Daily Activities
 (what I learn in each class)
 
 - Notes Activities:
