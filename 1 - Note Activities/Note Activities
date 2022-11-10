@@ -1,4 +1,21 @@
 #1
+'''Maria, in addition to being a trader, is also an excellent trader!
+That's why she always gets discounts on her purchases. when visiting a
+store, Maria received the following proposal from a salesperson: "If you buy
+my merchandise will grant a fixed discount of 10% and an additional 1% for each
+unit purchased". Unfortunately, Maria is tired of working so hard
+and she doesn't want to do the calculations herself to find out what the value will be
+of the purchase before and after the discount, so she asked for your help.
+
+You will create a program that will receive as inputs a real number,
+indicating the price of the merchandise purchased by Maria, and an integer,
+indicating the quantity of purchased goods, and will display the purchase value
+before the discount and the final amount, with the discount already applied.
+
+Note: For all intents and purposes, assume that this store never sells more than
+than 40 units of the same commodity for the same person. Notice that not
+it is necessary to verify, just assume that this is true.'''
+
 '''mercadoria = float(input())
 compra = float(input())
 total = (mercadoria*compra)
@@ -6,21 +23,67 @@ desconto = total*(0.9-(compra*0.01))
 print(f'{total:.2f}')
 print(f'{desconto:.2f}')'''
 
-
 #2
+'''"There's no way!", Julius repeats to himself that big city traffic is the
+biggest villain of his days, causing him to spend a lot of time on the way
+between his house and his first job, between his first job and his second
+job. , and between your second job until homecoming. Well, Julius has two jobs!
+
+Julius is great at accounting, but because he's always in a hurry, he's never
+had time to calculate the total time spent in traffic, from the moment he
+leaves the house to the moment he returns. Your watch is old, not making it
+possible to time one course, pause and continue timing on the next one, so it
+only knows the time spent between individual courses, not the time spent on
+the courses added together. Julius was even offered a new watch at a discount,
+to which he replied to the seller that "not buying the watch would give a
+bigger discount".
+
+You, as a good friend, have volunteered to create a program that takes as
+input the times of Julius's three journeys (home to first job, first job to
+second, and second to home) and displays the total time consumed.
+
+Do not forget that the three times will be given in minutes.'''
+
+
 '''emprego1 = float(input())
 emprego2 = float(input())
 casa = float(input())
 total = emprego1 + emprego2 + casa
 print(f'{total:.0f} minutos')'''
 
-
 #3
+'''Megan wants to buy a brand new smartphone and is very excited about the
+possibilities that such an inch screen can offer for her entertainment. But
+there's a problem, Megan realized that she doesn't know how to deal with
+inches, after all she always performed calculations using centimeters and
+would like to use that unit of measurement to imagine the screen size she
+will buy. Can you help Megan?
+
+Her job is to build a program that takes as input a real number, symbolizing
+a quantity of inches, and displays the equivalent in centimeters. Remember
+that one inch is equal to 2.54 cm.'''
+
+
 '''polegadas = float(input())
 centimetros = polegadas * 2.54
 print(f'{centimetros:.3f}')'''
 
+
 #4
+'''You like games? Silvio likes it! Even more mathematical games that need
+logical reasoning. As Silvio is very creative, he created a game to spend
+time with his friends between class breaks. The game is simple, one of
+his friends says out loud a natural number greater than or equal to two
+and Silvio must quickly say the odd number before and the even number
+after the pronounced number.
+
+You're a programmer who likes challenges, after all, every programmer
+faces challenges all the time, and that's why you offered to create a
+program to automate Silvio's answer, taking as input a natural number
+greater than or equal to two and displaying the previous odd and the
+rear pair.'''
+
+
 '''natural = int(input())
 if (natural%2)== 0: 
    impar = natural-1
@@ -30,9 +93,46 @@ else:
    impar = natural-2
    par = natural+1
    print(f'{impar:.0f} {par:.0f}')'''
-   
-   
+
+
 #5
+'''How good it is to be enrolled in a course related to computing!
+There are many interesting subjects and a world of discoveries! However,
+as with almost everything in life, to be successful, commitment and effort
+are needed to learn the contents that are passed on by teachers, as they
+require extra-class attention and study.
+
+You, an exemplary student, earn high grades and that's why you don't
+worry about the final average in the subjects, because you know you will
+pass without needing a substitute exam. However, some of his colleagues are
+apprehensive, as they were used to studying "at the last minute" and took
+a while to realize that this "tactic" no longer works. Therefore, they want
+to know if with the grades they have they will pass, fail or if there is a
+possibility of approval with the substitute test.
+
+Since in critical situations there is also compassion, you decided to
+create a program to help your colleagues. Your program will receive as
+input two real numbers, the first representing the grade of papers and
+the second the grade of the regular exam. Considering that each of the
+two grades represents 50% of the final average, your program will display
+a message indicating the student's situation, which can be one of three:
+
+a) Passed: if the final average is greater than or equal to six;
+
+b) Perhaps with the substitutive test: if there is any possible
+grade in the substitutive test that allows the final average to
+be greater than or equal to six. Remembering that, as well as the
+grade of papers and regular exam, the maximum grade in the substitute
+exam is ten and that it can only substitute the grade of the regular exam,
+not the one of works;
+
+c) Failed: if the final average is less than six and there is no possibility
+of recovery, even with the maximum grade in the substitute test.
+
+Note: The name of the problem is a reference to the classic phrase uttered
+at the end of the semester by students who do not study properly.'''
+
+
 '''nota1 = float(input())
 nota2 = float(input())
 if  (nota1>=2) and ((nota1+nota2)/2)>= 6:
@@ -41,9 +141,36 @@ elif (nota1>=2) and (nota1+nota2)>=2:
         print('talvez com a sub')
 else:
  print('reprovado')'''
- 
- 
+
+
+
 #6
+'''Modern times"… and we are not referring to the classic film by Charles
+Chaplin, but to the facilities that technology provides, unimaginable a few
+decades ago. One such technology is the internet, which has made online shopping possible.
+
+We can buy on company websites and in a few days the merchandise will be in our hands.
+Impacta Express, an e-commerce multinational with its own distribution logistics,
+wants to revolutionize making any delivery within six days of making the purchase.
+
+By participating in programming sites such as URI Online Judge, the IT coordinator
+of Impacta Express found you among the first in the rank, was fascinated by your
+performance and invited you for an interview!
+
+As part of the interview, the coordinator requested a program that receives as input
+two values: (I) a string with a day of the week ('Sunday', 'Monday', 'Tuesday', 'Wednesday',
+'Thursday', 'Friday' ' or 'Saturday'), without accents, which indicates the day a customer
+made a purchase on the company's website; (II) a natural number that can vary from 0 to 6,
+which indicates the number of days, from the date of purchase, that the customer must wait
+to receive the goods. The program must display the day of the week that the purchase will be delivered.
+
+Note that a lead time of zero days means delivery will be completed on the same day,
+and a lead time of two days means delivery will be completed exactly two days after
+the purchase is made. For example, if the purchase was made on 'Saturday' and the
+deadline is three days, the customer will receive it on 'Tuesday'. Be careful with
+the accent, notice that it is not present in the entries or in the exits, not even the 'ç' of third.'''
+
+
 '''dia_da_semana = str(input())
 prazo_de_entrega = int(input())
 
@@ -155,3 +282,9 @@ elif(dia_da_semana == 'sabado' and prazo_de_entrega == 5):
      print('sera entregue quinta')
 elif(dia_da_semana == 'sabado' and prazo_de_entrega == 6):
      print('sera entregue sexta')'''
+
+
+
+
+
+
